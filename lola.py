@@ -72,3 +72,39 @@ def sssssssssssssssssssssssssssssshow (e = 10):
 	o.sort			()
 	for i in o:
 		print i
+
+def ka (e):
+	lola = (math.sqrt (1 + 8*e) - 1)/2
+	loli = int (lola)
+	if lola == loli:
+		return lola
+	return loli + 1
+def sisequation	(n):
+	k = int	(ka	(n) )
+	return	(k - n%k, 1 + n%k)
+
+def funcioAlReves (e):
+	lola, loli = e
+	k = lola + loli -1
+	lola += rrr (k)
+	print 'lola', lola
+	return k+1 - lola%k
+
+def rrr (k):
+	return (k*(k+1))/2
+
+def studi ():
+	for i in xrange (1, 30): print i,'\t', sisequation (i), '\t', ka (i)
+
+def operation (e):
+	return 1 + (e - 2) + (1/2.) * (e -2) * (e -3)
+
+def deduccioOperation (e):
+	return e*(e -3)/2. + 2
+
+def Inversa (e):
+	lola, loli	= e
+	k		= lola + loli
+# minim teoric
+	m		= deduccioOperation	(k)
+	return m + lola%k -1
